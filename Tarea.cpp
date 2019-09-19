@@ -51,13 +51,6 @@ int main(){
 
             if(arr[i] >= currMult){
 
-                if(arr[i]%2 != 0){
-                    int aux = arr[i];
-                    while (aux >= currMult){
-                        aux--;
-                    }
-                }
-
                 currMult+=2;
             
             }
